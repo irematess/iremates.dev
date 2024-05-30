@@ -26,3 +26,9 @@ body {
     src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
   }
 }
+
+.box {
+  box-shadow:
+    27px 27px 54px #bebebe,
+    -27px -27px 54px #ffffff;
+}
