@@ -1,7 +1,7 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import MainLayout from '@/views/layouts/MainLayout.vue'
 </script>
 
 <template>
-  <RouterView />
+  <MainLayout />
 </template>

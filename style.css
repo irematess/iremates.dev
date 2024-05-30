@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: rgb(247, 118, 155);
+  background: radial-gradient(
+    circle,
+    rgba(247, 118, 155, 1) 0%,
+    rgba(255, 255, 255, 0.6587009803921569) 48%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@layer base {
+  html {
+    font-family: 'Varela Round', system-ui, sans-serif;
+  }
+  @font-face {
+    font-family: 'Varela Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+  }
+}
