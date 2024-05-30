@@ -2,9 +2,9 @@
 import Header from '@/components/Header.vue'
 </script>
 <template>
-  <div class="main">
+  <div class="py-16 flex flex-col gap-16">
     <Header />
-    sdföşilds
+
     <RouterView />
   </div>
 </template>
