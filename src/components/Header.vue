@@ -5,7 +5,7 @@
     <div class="flex gap-8 text-primary">
       <router-link to="/"
         ><i
-          class="fa-solid fa-house p-2 border-[1px] border-primary rounded-lg box hover:bg-pink-200 hover:border-0 hover:text-white"
+          class="fa-solid fa-house p-2 border-[1px] border-primary rounded-lg box hover:bg-pink-200 hover:border-0 mb-2 transition-all duration-300 hover:translate-x-1"
         ></i
       ></router-link>
       <router-link to="/"
