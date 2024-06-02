@@ -37,10 +37,18 @@
       <figure>
         <img src="../assets/e-commerce-app.png" class="w-[55rem]" />
       </figure>
-      <div class="text-md flex flex-col">
+      <div class="text-md flex flex-col justify-between">
         <span class="text-xl italic text-primary">E-Commerce App</span>
-        I developed the interface of the project using tailwind and Vue.JS. I processed the data
-        using Axios and the json-server package I did the routing with the Vue Router packag
+        <div>
+          I developed the interface of the project using tailwind and Vue.JS. I processed the data
+          using Axios and the json-server package I did the routing with the Vue Router package
+          <span class="bg-green-200 rounded-3xl px-2 mr-2"
+            ><span class="mr-1 text-green-500">•</span>Vue
+            <i class="fa-brands fa-vuejs text-green-500"></i></span
+          ><span class="bg-sky-200 rounded-3xl px-2"
+            ><span class="mr-1 text-sky-500">•</span>Tailwind</span
+          >
+        </div>
         <div class="flex gap-4 py-2">
           <a
             href="https://github.com/irematess/e-commerce-app"
@@ -55,12 +63,21 @@
         <img src="../assets/user-list-app.png" />
       </figure>
       <div class="text-md flex flex-col">
-        <span class="text-xl italic text-primary">User List App</span>
-        I developed the interface of the project using tailwind and Vue.JS. Using Rest Api, i
-        received data from external sources and showed this data to the user. I learned how to use
-        the Axios package and Vue Router. I took an avatar picture according to the username using
-        Avatar Api.
-
+        <div>
+          <span class="text-xl italic text-primary">User List App</span>
+          I developed the interface of the project using tailwind and Vue.JS. Using Rest Api, i
+          received data from external sources and showed this data to the user. I learned how to use
+          the Axios package and Vue Router. I took an avatar picture according to the username using
+          Avatar Api.
+          <span class="bg-green-200 rounded-3xl px-2 mr-2">
+            <span class="mr-1 text-green-500">•</span>Vue<i
+              class="fa-brands fa-vuejs text-green-500"
+            ></i
+          ></span>
+          <span class="bg-sky-200 rounded-3xl px-2">
+            <span class="mr-1 text-sky-500">•</span>Tailwind</span
+          >
+        </div>
         <div class="flex gap-4 py-2">
           <a
             href="https://user-list-app-eta.vercel.app/"
@@ -87,10 +104,8 @@
           the routing with the Vue Router package
           <span class="bg-green-200 rounded-3xl px-2 mr-2"
             ><span class="mr-1 text-green-500">•</span>Vue
-            <i class="fa-brands fa-vuejs text-green-500"></i></span
-          ><span class="bg-sky-200 rounded-3xl px-2"
-            ><span class="mr-1 text-sky-500">•</span>Tailwind</span
-          >
+            <i class="fa-brands fa-vuejs text-green-500"></i
+          ></span>
         </div>
 
         <div class="flex gap-4 py-2">
