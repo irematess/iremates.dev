@@ -1,27 +1,43 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script setup></script>
+<script setup>
+import { useDark, useToggle } from '@vueuse/core'
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
+</script>
 <template>
-  <div class="w-1/2 mx-auto flex justify-between px-4 py-3 bg-white box rounded-lg items-center">
-    <div class="flex gap-8 text-primary">
+  <div
+    class="max-lg:w-4/5 w-1/2 mx-auto bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex justify-between items-center max-sm:px-3 px-4 py-3 rounded-lg border-[1px] dark:border-zinc-800 border-pink-100"
+  >
+    <!-- Navbar -->
+    <div
+      class="flex items-center max-sm:gap-2 gap-8 text-pink-300 dark:text-white max-sm:text-xl text-2xl"
+    >
       <router-link to="/"
         ><i
-          class="fa-solid fa-house p-2 border-[1px] border-primary rounded-lg box hover:bg-pink-200 hover:border-0 mb-2 transition-all duration-300 hover:translate-x-1"
+          class="fa-solid fa-house rounded-lg p-2 hover:bg-pink-200 dark:hover:bg-zinc-600 hover:text-white ease-linear duration-500"
         ></i
       ></router-link>
+      <a href="iremates.pdf" download>CV</a>
       <router-link to="/"
         ><i
-          class="fa-regular fa-file p-2 border-[1px] border-primary rounded-lg box hover:bg-pink-200 hover:border-0 hover:text-white"
+          class="fa-regular fa-file rounded-lg p-2 hover:bg-pink-200 dark:hover:bg-zinc-600 hover:text-white ease-linear duration-500"
         ></i
       ></router-link>
       <router-link to="/projects"
         ><i
-          class="fa-solid fa-laptop p-2 border-[1px] border-primary rounded-lg box-border hover:bg-pink-200 hover:border-0 hover:text-white"
+          class="fa-solid fa-laptop rounded-lg p-2 hover:bg-pink-200 dark:hover:bg-zinc-600 hover:text-white ease-linear duration-500"
         ></i
       ></router-link>
     </div>
-    <div class="text-xl gap-4 flex">
-      <button><i class="fa-solid fa-moon text-gray-400 box"></i></button>
-      <button><i class="fa-solid fa-sun text-pink-300 box"></i></button>
-    </div>
+    <!-- Light/Dark -->
+    <button @click="toggleDark()">
+      <i
+        :class="{
+          'fa-solid fa-moon text-white': isDark,
+          'fa-solid fa-sun text-pink-300': !isDark
+        }"
+        class="text-2xl max-sm:text-xl"
+      ></i>
+    </button>
   </div>
 </template>

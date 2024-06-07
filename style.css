@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background: rgb(247, 118, 155);
-  background: radial-gradient(
-    circle,
-    rgba(247, 118, 155, 1) 0%,
-    rgba(255, 255, 255, 0.6587009803921569) 48%
-  );
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 @layer base {
   html {
     font-family: 'Varela Round', system-ui, sans-serif;
@@ -29,6 +17,11 @@ body {
 
 .box {
   box-shadow:
-    27px 27px 54px #bebebe,
-    -27px -27px 54px #ffffff;
+    27px 27px 54px #bebebe30,
+    -27px -27px 54px #ffffff14;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
