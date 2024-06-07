@@ -17,12 +17,12 @@ const toggleDark = useToggle(isDark)
           class="fa-solid fa-house rounded-lg p-2 hover:bg-pink-200 dark:hover:bg-zinc-600 hover:text-white ease-linear duration-500"
         ></i
       ></router-link>
-      <a href="iremates.pdf" download>CV</a>
-      <router-link to="/"
+
+      <a href="iremates.pdf" download
         ><i
           class="fa-regular fa-file rounded-lg p-2 hover:bg-pink-200 dark:hover:bg-zinc-600 hover:text-white ease-linear duration-500"
         ></i
-      ></router-link>
+      ></a>
       <router-link to="/projects"
         ><i
           class="fa-solid fa-laptop rounded-lg p-2 hover:bg-pink-200 dark:hover:bg-zinc-600 hover:text-white ease-linear duration-500"
