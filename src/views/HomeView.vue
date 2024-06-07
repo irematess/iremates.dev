@@ -1,11 +1,11 @@
 <script setup></script>
 <template>
   <div
-    class="max-md:w-4/5 w-1/2 mx-auto bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex flex-col items-center justify-center dark:bg-black rounded-lg border-[1px] border-pink-100 dark:border-zinc-800"
+    class="max-lg:w-4/5 w-1/2 mx-auto bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex flex-col items-center justify-center dark:bg-black rounded-lg border-[1px] border-pink-100 dark:border-zinc-800"
   >
     <!-- About -->
     <div
-      class="w-full flex max-md:flex-col flex-row items-center justify-center pt-10 pb-5 px-8 max-sm:px-4"
+      class="w-full flex max-lg:flex-col flex-row items-center justify-center pt-10 pb-5 px-8 max-sm:px-4"
     >
       <!-- Bio -->
       <div class="flex flex-col gap-4 px-10 max-sm:px-8">
@@ -21,7 +21,7 @@
           I really enjoy writing JavaScript. I am currently developing projects with Vue.js.
         </div>
       </div>
-      <figure class="w-[55rem] md:w-[35rem] max-sm:w-full sm:w-full">
+      <figure class="w-[55rem] md:w-[35rem] max-sm:w-full sm:w-full flex items-center">
         <img src="../assets/profile.png" alt="" />
       </figure>
     </div>
