@@ -1,35 +1,28 @@
-# iremates.dev
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# [iremates.dev](https://iremates-dev.vercel.app/)
 
 ## Project Setup
 
 ```sh
-yarn
+git clone https://github.com/irematess/iremates.dev.git
 ```
-
-### Compile and Hot-Reload for Development
 
 ```sh
-yarn dev
+cd iremates.dev
 ```
-
-### Compile and Minify for Production
 
 ```sh
-yarn build
+yarn / npm install 
 ```
-
-### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-yarn lint
+yarn dev / npm run dev
 ```
+
+## Screenshots
+![](screenshots/1.png)
+
+![](screenshots/2.png)
+
+![](screenshots/3.png)
+
+![](screenshots/4.png)
