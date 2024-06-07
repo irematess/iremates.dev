@@ -5,3 +5,8 @@ import MainLayout from '@/views/layouts/MainLayout.vue'
 <template>
   <MainLayout />
 </template>
+<style>
+body {
+  @apply dark:bg-black bg-white;
+}
+</style>

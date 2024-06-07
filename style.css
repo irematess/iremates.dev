@@ -15,19 +15,6 @@
   }
 }
 
-html,
-body,
-#app,
-#root {
-  height: 100%;
-}
-
-.box {
-  box-shadow:
-    27px 27px 54px #bebebe30,
-    -27px -27px 54px #ffffff14;
-}
-
 * {
   margin: 0;
   padding: 0;

@@ -1,16 +1,18 @@
 <script></script>
 <template>
   <div
-    class="w-1/2 max-lg:w-4/5 mx-auto flex flex-col items-center justify-center py-4 dark:bg-black rounded-lg gap-8"
+    class="w-1/2 max-lg:w-4/5 mx-auto flex flex-col items-center justify-center py-4 rounded-lg gap-8"
   >
+    <!-- Title -->
     <div
       class="w-full py-4 text-center italic underline text-4xl font-bold text-pink-700 dark:text-white"
     >
       PROJECTS
     </div>
-    <div class="w-full flex flex-col gap-8">
+    <!-- Projects -->
+    <div class="flex flex-col gap-8">
       <div
-        class="bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex bg-white dark:bg-black dark:text-white p-8 rounded gap-2 items-center justify-between"
+        class="bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex dark:text-white p-8 rounded gap-2 items-center justify-between"
       >
         <figure>
           <img src="../assets/fast-finger-app.png" class="w-[35rem]" />
@@ -46,7 +48,7 @@
         </div>
       </div>
       <div
-        class="bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex bg-white dark:bg-black dark:text-white p-8 rounded gap-2 items-center justify-between"
+        class="bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex dark:text-white p-8 rounded gap-2 items-center justify-between"
       >
         <figure>
           <img src="../assets/e-commerce-app.png" class="w-[55rem]" />
@@ -73,7 +75,7 @@
         </div>
       </div>
       <div
-        class="bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex bg-white dark:bg-black dark:text-white p-8 rounded gap-2 items-center justify-between"
+        class="bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex dark:text-white p-8 rounded gap-2 items-center justify-between"
       >
         <figure>
           <img src="../assets/user-list-app.png" />
@@ -111,7 +113,7 @@
         </div>
       </div>
       <div
-        class="bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex bg-white dark:bg-black dark:text-white p-8 rounded gap-2 items-center justify-between"
+        class="bg-gradient-to-t from-pink-50 to-pink-100 dark:from-zinc-800 dark:to-zinc-900 flex dark:text-white p-8 rounded gap-2 items-center justify-between"
       >
         <figure>
           <img src="../assets/movie-app.png" class="w-[58rem]" />
