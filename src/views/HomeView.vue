@@ -29,7 +29,7 @@
     <div
       class="w-full flex flex-col gap-4 items-center py-6 border-t-2 border-white dark:border-zinc-800"
     >
-      <span class="text-2xl font-semibold px-4 dark:text-white">Technologie</span>
+      <span class="text-2xl font-semibold px-4 dark:text-white">Technologies</span>
       <div class="flex gap-4 items-center px-2">
         <img src="../assets/html-logo.png" alt="" class="max-sm:w-6 max-sm:h-6 w-16 h-16" />
         <img src="../assets/css.webp" alt="" class="max-sm:w-6 max-sm:h-6 w-12 h-12" />
